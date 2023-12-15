@@ -1,0 +1,10 @@
+               #first to create a demo.txt file i use touch command
+touch demo.txt
+               #now demo.txt file has been created, now i'll check the default given permissions of this file by using ls -lart command and argument.
+ls -lart
+               # there i found the given permissions are owner-rw , group-rw and anyuser-r by default.. to change it to owner-rwx, group-rw and anyuser-r ,
+              # i use chmod command. by considering octet values of read-4, write-2 & execute-1 
+chmod 764 demo.txt
+              # now the file permissions are changed to owner - r/w/x, group - r/w, and anyuser - r. to confirm it i'll print the list of files.
+ls -lart.
+              # Done.
