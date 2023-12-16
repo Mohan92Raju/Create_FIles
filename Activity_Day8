@@ -1,0 +1,25 @@
+# to create a file and edit
+       
+      mroot01@mroot01:~$ nano simple.sh
+
+# now create a simple script using if statement
+
+      #!/bin/bash
+      echo -n "Enter a number: "
+      read number
+      if [[ $number -gt 10 ]]
+      then
+      echo "The Number is greater than 10. "
+      else
+      echo "The number is lesser than 10. "
+      fi
+
+# now to execute it
+
+      mroot01@mroot01:~$ ./simple.sh
+      Enter a number: 5
+      The number is lesser than 10. 
+      mroot01@mroot01:~$ ./simple.sh
+      Enter a number: 12
+      The Number is greater than 10. 
+      mroot01@mroot01:~$ 
