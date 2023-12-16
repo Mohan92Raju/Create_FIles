@@ -1,0 +1,38 @@
+nano simple.sh
+  
+            #!/bin/bash
+            
+            #Collecting Data
+            
+            echo "   The Simple Bash Script"
+            # Asking for a name 
+            read -p "Your Sweet Name ?" name
+            #  Asking for fav food
+            read -p "Your Favorite Food ?" food
+            # Asking for favorite anime
+            read -p "Your Favorite Anime ?" anime
+            #greeting
+            echo "Nice knowing you... Thanks."
+            
+            
+            #printing result
+            ###### blank
+            
+            ### blank
+            
+            echo "Data:"
+            echo "Name : $name"
+            echo "Fav Food: $food"
+            echo "Fav Anime: $anime"
+
+chmod 764 simple.sh
+./simple.sh
+              The Simple Bash Script
+            Your Sweet Name ?Mohan
+            Your Favorite Food ?dosa
+            Your Favorite Anime ?onepiece
+            Nice knowing you... Thanks.
+            Data:
+            Name : Mohan
+            Fav Food: dosa
+            Fav Anime: onepiece
