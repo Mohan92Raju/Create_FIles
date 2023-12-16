@@ -7,19 +7,29 @@
       #!/bin/bash
       echo -n "Enter a number: "
       read number
-      if [[ $number -gt 10 ]]
+      if [[ $number -ge 10 ]]
       then
-      echo "The Number is greater than 10. "
+      echo "The Number is greater than or equal to 10. "
       else
       echo "The number is lesser than 10. "
       fi
 
 # now to execute it
 
-      mroot01@mroot01:~$ ./simple.sh
-      Enter a number: 5
-      The number is lesser than 10. 
-      mroot01@mroot01:~$ ./simple.sh
-      Enter a number: 12
-      The Number is greater than 10. 
-      mroot01@mroot01:~$ 
+       mroot01@mroot01:~$ ./simple.sh
+       Enter a number: 5 
+       The number is lesser than 10. 
+       mroot01@mroot01:~$ ./simple.sh
+       Enter a number: 12
+       The Number is greater than or equal to 10. 
+       mroot01@mroot01:~$ ./simple.sh
+       Enter a number: 10
+       The Number is greater than or equal to 10. 
+       mroot01@mroot01:~$ ./simple.sh
+       Enter a number: 9
+       The number is lesser than 10. 
+       mroot01@mroot01:~$ 
+
+
+
+      
