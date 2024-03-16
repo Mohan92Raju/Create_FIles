@@ -13,9 +13,3 @@ then play with some docker commands
        docker version
        docker images
        docker ps
-then i'll try to install nginx image from dockerhub using pull command
-       docker pull nginx:latest
-then create and run a container from that image
-       docker run nginx.
-lists all containers
-       docker ps -a.
