@@ -1,6 +1,6 @@
 first start the Instance in AWS
 then connect the ec2 instance in terminal using
-       ssh -i <keyPair_name> ec2-user@<private_ip of inatance>
+       ssh -i <keyPair_name> ec2-user@<private_ip of instance>
 and switch to root user using 
        sudo su
 once connected, Update the package using
