@@ -1,0 +1,21 @@
+first start the Instance in AWS
+then connect the ec2 instance in terminal using
+       ssh -i <keyPair_name> ec2-user@<public_ip of inatance>
+and switch to root user using 
+       sudo su
+once connected, Update the package using
+       yum update -y
+then install docker using
+       yum install docker -y
+then start the docker service using
+       service docker start
+then play with some docker commands
+       docker version
+       docker images
+       docker ps
+then i'll try to install nginx image from dockerhub using pull command
+       docker pull nginx:latest
+then create and run a container from that image
+       docker run nginx.
+lists all containers
+       docker ps -a.
