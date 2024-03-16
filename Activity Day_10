@@ -1,0 +1,10 @@
+first start the Instance in AWS
+then connect the ec2 instance in terminal using
+       ssh -i <keyPair_name> ec2-user@<public_ip of inatance>
+once connected, Update the package using
+       yum update -y
+yum install docker -y
+docker version
+docker images
+docker search nginx
+docker ps
